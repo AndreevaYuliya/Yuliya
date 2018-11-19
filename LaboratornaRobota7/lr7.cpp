@@ -36,6 +36,8 @@ int main()
 		cin >> A;
 	cout << "\tСума розрядiв значення виразу A = " << Task2(A) << endl;
 	A = int(fA(a, b, c));
-
+	double C;
+	C = fA(a, b, c) - fB(d, e, g);
+	cout << "A-B=" << C << endl;
 	system("pause");
 }
